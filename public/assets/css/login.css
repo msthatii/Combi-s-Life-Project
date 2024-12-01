@@ -41,9 +41,9 @@ body {
     position: absolute; /* Position the cat relative to the container */
     bottom: -5%; /* Adjust this value to move the cat higher or lower */
     top: -300px; /* Adjust this value to bring the cat closer to the container */
-    left: 50%;
+    left: 10%;
    
-    transform: translateX(-50%); /* Center the image horizontally */
+    transform: translateX(0); /* Center the image horizontally */
     width: 580px; /* Increase the size of the cat image */
     z-index: 0; /* Ensure it's behind the login container */
 }

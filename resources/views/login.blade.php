@@ -24,11 +24,11 @@
         <!-- END OF HEADER -->
 
         <main>
-            <div class="dog-container-wrapper">
+            <div class="cat-container-wrapper">
                 <!-- Login Form Container -->
                 <div class="login-container">
-                    <div class="dog-holder">
-                        <img src="/assets/images/combii.png" alt="Combi holding the login container" class="dog-image">
+                    <div class="cat-holder">
+                        <img src="/assets/images/combi.png" alt="Combi holding the login container" class="cat-image">
                     </div>
                     <h2>Combii's Access</h2>
             
