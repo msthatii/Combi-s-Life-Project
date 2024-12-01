@@ -14,34 +14,36 @@ body {
 
 /* Logo */
 .logo {
-    text-align: center;
-    margin-top: 20px;
+   padding-left:250px;
+    padding-top: 20px;
     position: relative; /* Ensure it's positioned correctly */
     z-index: 2; /* Increase z-index to make sure it's on top */
 }
 
 .logo img {
-    max-width: 150px;
-    z-index: 2; /* Keep it on top */
+    max-width: 900px;
+    z-index: -4; /* Keep it on top */
     position: relative;
+    height: 250px;
 }
 .cat-container-wrapper {
     position: relative;
     margin-top: 150px; /* Adjust this to move both the cat and container lower together */
     text-align: center;
+    padding-bottom: 100px;
+
 }
 
 .cat-holder {
     position: relative; /* Allow absolute positioning of the cat */
     height: 0; /* No height to avoid affecting layout */
-    text-align: center; /* Center content */
+    text-align: right; /* Center content */
 }
 
 .cat-image {
     position: absolute; /* Position the cat relative to the container */
-    bottom: -5%; /* Adjust this value to move the cat higher or lower */
-    top: -300px; /* Adjust this value to bring the cat closer to the container */
-    left: 10%;
+    top: -430px; /* Adjust this value to bring the cat closer to the container */
+    left: 120%;
    
     transform: translateX(0); /* Center the image horizontally */
     width: 580px; /* Increase the size of the cat image */
@@ -50,22 +52,29 @@ body {
 
 .login-container {
     background-color: #ffe6f3;
-    border-radius: 15px;
-    width: 320px; 
-    padding: 40px;
-    margin: 50px auto;
+    border-radius: 20px;
+    width: 500px; 
+    padding: 70px;
+    margin: 70px auto;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow for more depth */
     position: relative; /* Position relative to allow z-index to work */
     z-index: 1; /* Ensure it appears above the cat image */
+    left:-10%;
+    transform: translate(-20%)
 }
 
 
 /* Login Form Container */
 .login-container h2 {
+    font-family: 'Mingz';
     text-align: center;
     color: #d13469;
     margin-bottom: 20px;
     font-size: 24px; /* Slightly larger font size */
+    position: relative;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .login-container label {
